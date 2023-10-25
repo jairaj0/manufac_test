@@ -1,0 +1,76 @@
+.command{
+    .objkeys{
+        label{
+            color: #fff;
+            margin-right: 1rem;
+        }
+        select{
+            outline: none;
+            font-size: 14px;
+            padding: .3rem;
+            cursor: pointer;
+            background-color: transparent;
+            color: orange;
+            border-color: orange;
+
+            &:disabled{
+                color: orange;
+                background-color: black;
+                border-color: gray;
+            }
+        }
+    }
+
+    .sameValue , .eg{
+        color: #161616;
+        background: #78ff78;
+        border: 1px solid transparent;
+        padding: .5rem 1rem;
+        font-weight: 600;
+
+        &:disabled{
+            color: orange;
+            background-color: black;
+            border-color: gray;
+        }
+        &:active{
+            color: black;
+            background-color: orange;
+            border-color: gray;
+        }
+    }
+
+    .equalValue{
+        input{
+            font-weight: 600;
+            width: 80px;
+            padding: .5rem 1rem;
+            border: 1px solid #78ff78;
+            color: #78ff78;
+            background: none;
+            outline: none;
+        }
+        .eg{
+            border: none;
+            background: #78ff78;
+            color: #161616;
+            padding: .4rem 1rem;
+            font-size: 18px;
+            &:active{
+                opacity: 0.5;
+            }
+        }
+        .rev{
+            transform: rotate(180deg);
+        }
+    }
+
+    .run , .reset{
+        background: orange;
+        border-radius: .5rem;
+    }
+    .reset{
+        background-color: crimson;
+        color: #fff;
+    }
+}

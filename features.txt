@@ -1,0 +1,13 @@
+first - select any keyname of the object
+second - filter out the same no of object by heading 
+         no of keyname I.G.{Alcohol : 1 , Alcohol : 2 , ...}
+         ( it will work with sixth no)
+third - give the number which will only show same no value
+        objects (value === given no)
+
+fourth -  (value > given no)
+fifth -  (value < given no)
+sixth - sort by "high to low" ," low to high"
+
+NOTE :- we need to store every command and these data for 
+        a record;

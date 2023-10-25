@@ -1,0 +1,30 @@
+.card {
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(14px);
+          backdrop-filter: blur(14px);
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 1.5rem 0.5rem;
+  border-radius: 1rem;
+  border: 0.1px solid gray;
+}
+.card h2 {
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+}
+.card h2 span {
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+}
+.card h2 span span {
+  color: orangered !important;
+}
+.card h2 span:last-child {
+  color: cyan;
+}
+.card h2.active {
+  border: 1px solid #78ff78;
+  background-color: rgba(120, 255, 120, 0.4078431373);
+  border-radius: 3rem;
+  transition: all 0.5s ease-in-out;
+}/*# sourceMappingURL=Card.css.map */

@@ -1,0 +1,35 @@
+
+.card{
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2); 
+    backdrop-filter: blur(14px); 
+    background-color: rgba(0, 0, 0, 0.2); 
+    padding: 1.5rem .5rem;
+    border-radius: 1rem;
+    border: .1px solid gray;
+
+    h2{
+        padding: .5rem 1rem;
+        border: 1px solid transparent;
+    }
+
+    h2 span{
+        color: #fff;
+        font-weight: 400;
+        font-size: 16px;
+
+        span{
+            color: orangered !important;
+        }
+
+        &:last-child{
+            color: cyan;
+        }
+    }
+
+    h2.active{
+        border: 1px solid #78ff78;
+        background-color: #78ff7868;
+        border-radius: 3rem;
+        transition: all .5s ease-in-out;
+    }
+}

@@ -1,0 +1,11 @@
+.commands {
+  max-height: 400px;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  background-color: rgba(22, 22, 22, 0.8470588235);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem !important;
+  margin-top: 2rem !important;
+  border: 0.1px solid orange;
+}/*# sourceMappingURL=Commands.css.map */
